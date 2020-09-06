@@ -1,0 +1,192 @@
+body{
+  font-family:monospace;
+}
+nav{
+ background-color: #747D35;
+}
+
+.title{
+  font-size: 5vw;
+}
+.navbar-toggler .navbar-toggler-icon {
+  position:absolute;
+  top:0.33vw;
+  right:5vw;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  height:11vw;
+  line-height: inherit;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+header{
+  height: 11vw;
+  line-height: 11vw;
+  padding-top:0;
+  padding-bottom:0;
+}
+header>.row{
+  padding-top:0;
+  padding-bottom:0;
+}
+.row>.navbar-brand{
+  height:11vw;
+  line-height: 11vw;
+  padding-top:0;
+  padding-bottom:0;
+}
+.menu>.btn{
+  background-color: #747D35;
+  font-size: 2.16vw;
+  height:10.5vw;
+  line-height: 10.5vw;
+  padding-top:0;
+  padding-bottom:0;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+.menu>.btn>a:hover{
+  font-weight:bold;
+}
+.menu>.btn:hover{
+ background-color: #657431;
+ font-weight:bold;
+}
+
+/* modal settings*/
+
+.fullscreen .modal-dialog {
+  margin: 0 0 0 0;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  padding: 0;
+  z-index:0;
+}
+.modal-header h5{
+  font-size: 6vw;
+  line-height: 11vw;
+  height: inherit;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+.fullscreen .modal-content {
+  height: 100%;
+  min-height: 100%;
+  border-radius: 0;
+  background: #747D35;
+  opacity: 0.8;
+  overflow:auto;
+  text-align: center;
+}
+
+.fullscreen .modal-content .modal-header{
+  border: 0px;
+  height:11vw;
+  text-align:center;
+  align-items: center;
+}
+
+.fullscreen .modal-content button{
+  opacity: 1;
+  height:inherit;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+.fullscreen .modal-content button span{
+  color: #fff;
+  font-weight: 1;
+  font-size: 6vw;
+  line-height:11vw;
+  text-shadow: none;
+  height:inherit;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+
+.fullscreen .modal-body ul {
+  padding: 0 0 0 0;
+}
+.fullscreen .modal-body li {
+  padding-top:5vw;
+  padding-bottom: 5vw;
+}
+
+.fullscreen .dropdown-menu{
+  width:100%;
+  background: #747D35;
+  border:none;
+  text-align:center;
+}
+.fullscreen .dropdown-menu>a:hover{
+  background: #4C5C26;
+  font-weight: bold;
+}
+.fullscreen .modal-body li:last-child{
+  padding-bottom:0;
+}
+
+.fullscreen .modal-body a {
+  color: #fff;
+  font-size: 5vw;
+}
+
+.modal-title{
+  color: #fff;
+}
+
+.modal-backdrop {
+  z-index: 1020;
+}
+article>.container,#topImage{
+  margin-top:11vw;
+}
+
+/* text and app icon on the image responsive */
+.top-image{
+  position:relative;
+}
+.catch>h1{
+ font-size: 4vw;
+}
+.catch>p{
+  font-size:2vw;
+  color:#666666;
+}
+.catch{
+  position:absolute;
+  text-align:center;
+  top:15vw;
+  left:0vw;
+  right:0vw;
+}
+.icon-container{
+  position:absolute;
+  top:35vw;
+  left:10vw;
+  right:60vw;
+}
+
+/* backgrounds for explanation page */
+.sm-tag-explanation,.sm-favorite-explanation{
+  background-color: #DDDDDD;
+}
+
+/* small-and-xs explanation page */
+.small-and-xs{
+  padding-top: 3vw;
+  text-align:center;
+  padding-bottom:3vw;
+}
+.small-and-xs>h5{
+  font-size: 5vw;
+}
+.small-and-xs>p{
+  margin-top:1vw;
+  font-size: 2.5vw;
+  color:#888888;
+}

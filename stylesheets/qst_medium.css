@@ -1,0 +1,221 @@
+body{
+  font-family:monospace;
+}
+nav{
+ background-color: #747D35;
+}
+
+.title{
+  font-size: 2.4vw;
+}
+.navbar-toggler .navbar-toggler-icon {
+  position:absolute;
+  top:0.2vw;
+  right:3vw;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  height:7vw;
+  line-height: inherit;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+header{
+  height: 7vw;
+  line-height: 7vw;
+  padding-top:0;
+  padding-bottom:0;
+}
+header>.row{
+  padding-top:0;
+  padding-bottom:0;
+}
+.row>.navbar-brand{
+  height:inherit;
+  line-height: inherit;
+  padding-top:0;
+  padding-bottom:0;
+}
+.menu>.btn{
+  background-color: #747D35;
+  font-size: 1.3vw;
+  height:6vw;
+  line-height: 6vw;
+  padding-top:0;
+  padding-bottom:0;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+.dropdown>#navbarDropdownMenu{
+  font-size:1.3vw;
+  height:6vw;
+  line-height: 6vw;
+  padding:0;
+  margin:0;
+}
+.dropdown-menu{
+  min-width:0px;
+  width:100%;
+}
+.dropdown-menu>a{
+  text-align:center;
+  font-size:1.3vw;
+  height:3vw;
+  line-height:3vw;
+}
+
+.menu>.btn>a:hover{
+  font-weight:bold;
+}
+.menu>.btn:hover{
+ background-color: #657431;
+ font-weight:bold;
+}
+.menu>.btn:hover, .menu>.dropdown:hover{
+ background-color: #657431;
+ font-weight:bold;
+}
+
+/* modal settings*/
+
+.fullscreen .modal-dialog {
+  margin: 0 0 0 0;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  padding: 0;
+  z-index:0;
+}
+.modal-header h5{
+  font-size: 3vw;
+  line-height: 5vw;
+  height: inherit;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+.fullscreen .modal-content {
+  height: 100%;
+  min-height: 100%;
+  border-radius: 0;
+  background: #747D35;
+  opacity: 0.8;
+  overflow:auto;
+  text-align: center;
+}
+
+.fullscreen .modal-content .modal-header{
+  border: 0px;
+  height:5vw;
+  text-align:center;
+  align-items: center;
+}
+
+.fullscreen .modal-content button{
+  opacity: 1;
+  height:inherit;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+.fullscreen .modal-content button span{
+  color: #fff;
+  font-weight: 1;
+  font-size: 3vw;
+  line-height:5vw;
+  text-shadow: none;
+  height:inherit;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+
+.fullscreen .modal-body ul {
+  padding: 0 0 0 0;
+}
+.fullscreen .modal-body li {
+  padding-top:3vw;
+  padding-bottom: 3vw;
+}
+.fullscreen .modal-body a {
+  color: #fff;
+  font-size: 2.5vw;
+}
+
+.modal-title{
+  color: #fff;
+}
+
+.modal-backdrop {
+  z-index: 1020;
+}
+
+article>.container,#topImage{
+  margin-top:7vw;
+}
+
+/* text and app icon on the image responsive */
+.top-image{
+  position:relative;
+}
+.catch>h1{
+ font-size: 2.5vw;
+}
+.catch>p{
+  font-size:1.5vw;
+  color:#666666;
+}
+.catch{
+  position:absolute;
+  text-align:center;
+  top:20vw;
+  left:5vw;
+  right:49vw;
+}
+.icon-container{
+  display:flex;
+  position:absolute;
+  bottom: 4vw;
+  left:57vw;
+  right:5vw;
+}
+/* lg-and-md */
+.lg-and-md{
+
+}
+.explanation-content{
+  align-items:center;
+  text-align:left;
+  position:relative;
+}
+.explanation-content>h5{
+  position:absolute;
+  top:30%;
+  width:inherit;
+  text-align:center;
+  padding-right:6vw;
+  font-size:2.4vw;
+}
+.explanation-content>p{
+  position:absolute;
+  top:40%;
+  width:75%;
+  left:10%;
+  right:15%;
+  font-size:1.3vw;
+  color:#888888;
+}
+
+/* backgrounds for explanation page */
+.lg-and-md-container-left{
+  background-color: #DDDDDD;
+}
+
+/* margin for left and right */
+.lg-and-md-left>h5,.lg-and-md-left>p{
+  margin-left:3vw;
+}
+
+.lg-and-md-right>h5,.lg-and-md-right>p{
+  margin-left: -2vw;
+}

@@ -1,0 +1,43 @@
+.start {
+	position: fixed;
+	background: #fff;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 9000;
+}
+
+.start p {
+	position:absolute;
+	left: 15vw;
+	top: 35vh;
+	z-index: 9990;
+	width:1100px;
+}
+
+.typ {
+	margin-right:auto;
+	margin-left:auto;
+	position:fixed;
+	font-size:9.72vw;
+	color: #14491D;
+  opacity: 0;
+	z-index: 9998;
+  }
+.typ span {
+  display:none;
+	font-size:9.72vw;
+	color: #14491D;
+	z-index: 9999;
+  }
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+		padding:0;
+}
