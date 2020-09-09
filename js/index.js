@@ -1,16 +1,16 @@
 $(document).ready(function(){
-  if(window.innerWidth<= 767){
+  if(window.innerWidth<= 767.98){
      $('#topImage').attr('src', "./asset/index/phone_desk_long.png");
   }
-  else if(window.innerWidth >= 991.98){
+  else if(window.innerWidth >= 992){
     $('#topImage').attr('src', "asset/index/desk_wide.png");
   }
 
 $(window).on('resize', function(){
- if(window.innerWidth<= 767){
+ if(window.innerWidth<= 767.98){
     $('#topImage').attr('src', "./asset/index/phone_desk_long.png");
  }
- else if(window.innerWidth >= 991.98){
+ else if(window.innerWidth >= 992){
    $('#topImage').attr('src', "asset/index/desk_wide.png");
  }
  else{
