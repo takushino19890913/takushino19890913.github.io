@@ -2,10 +2,16 @@ $(document).ready(function(){
   if(window.innerWidth<= 767){
      $('#topImage').attr('src', "./asset/index/phone_desk_long.png");
   }
+  else if(window.innerWidth >= 991.98){
+    $('#topImage').attr('src', "asset/index/desk_wide.png");
+  }
 
 $(window).on('resize', function(){
  if(window.innerWidth<= 767){
     $('#topImage').attr('src', "./asset/index/phone_desk_long.png");
+ }
+ else if(window.innerWidth >= 991.98){
+   $('#topImage').attr('src', "asset/index/desk_wide.png");
  }
  else{
    $('#topImage').attr('src', "./asset/index/desk3.png");

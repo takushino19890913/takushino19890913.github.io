@@ -6,7 +6,7 @@ nav{
 }
 
 .title{
-  font-size: 6vw;
+  font-size: 5vw;
 }
 .navbar-toggler .navbar-toggler-icon {
   position:absolute;
@@ -47,7 +47,7 @@ header>.row{
 }
 
 h2{
-  font-size:6vw;
+  font-size:5vw;
 }
 
 .menu>.btn>a:hover{
@@ -224,8 +224,8 @@ hr{
   padding: 0 0 0 0;
 }
 .fullscreen .modal-body li {
-  padding-top:13vw;
-  padding-bottom: 13vw;
+  padding-top:5vw;
+  padding-bottom: 5vw;
 }
 .fullscreen .modal-body a {
   color: #fff;
